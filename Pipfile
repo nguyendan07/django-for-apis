@@ -13,8 +13,6 @@ django = "*"
 djangorestframework = "*"
 markdown = "*"
 django-filter = "*"
-shopifyapi = "*"
 django-cors-headers = "*"
 
 [requires]
-python_version = "3.6"
