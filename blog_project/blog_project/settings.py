@@ -41,6 +41,7 @@ INSTALLED_APPS = [
     # 3rd-party apps
     'rest_framework',
     'rest_framework.authtoken',
+    'dj_rest_auth',
 
     # local
     'posts.apps.PostsConfig',
@@ -142,3 +143,7 @@ REST_FRAMEWORK = {
     ]
 }
 
+# dj-rest-auth
+# https://github.com/jazzband/dj-rest-auth#quick-setup
+REST_USE_JWT = True
+JWT_AUTH_COOKIE = 'jwt-auth'

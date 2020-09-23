@@ -14,5 +14,7 @@ djangorestframework = "*"
 markdown = "*"
 django-filter = "*"
 django-cors-headers = "*"
+dj-rest-auth = "*"
+djangorestframework-simplejwt = "*"
 
 [requires]
